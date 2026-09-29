@@ -36,7 +36,6 @@ BookBloom/
 ├── script.js
 │
 └── images/
-    ├── annafrank.jpg
     ├── canwe.jpg
     ├── hp.jpg
     ├── ikigai.jpg
@@ -44,15 +43,12 @@ BookBloom/
     ├── itends.jpg
     ├── kalivarai.jpg
     ├── kiterunner.jpg
-    ├── littlelif.jpg
-    ├── mathoru.jpg
     ├── matmv.jpg
     ├── nelsonmandela.jpg
     ├── poetry1.jpg
     ├── rdpd.jpg
     ├── sns1.jpg
     ├── snsm.jpg
-    ├── splendidsun.jpg
     ├── whitent.png
     └── withoutwndw.jpg
 ```
