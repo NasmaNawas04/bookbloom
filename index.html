@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>BookBloom - Online Book Store</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            📚 BookNest
+        </div>
+
+        <button
+            class="theme-button"
+            id="themeButton">
+
+            🌙
+
+        </button>
+
+    </header>
+
+    <main class="container">
+
+        <section class="intro">
+
+            <h1>
+                Find Your Next Book
+            </h1>
+
+            <p>
+                Explore our collection of interesting books,
+                discover new stories and find your next
+                favourite read.
+            </p>
+
+        </section>
+
+        <section class="filters">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search books by name...">
+
+            <select id="categoryFilter">
+
+                <option value="all">
+                    All Categories
+                </option>
+
+                <option value="Fiction">
+                    Fiction
+                </option>
+
+                <option value="Self-Help">
+                    Self-Help
+                </option>
+
+                <option value="Classic">
+                    Classic
+                </option>
+
+                <option value="Fantasy">
+                    Fantasy
+                </option>
+
+                <option value="Finance">
+                    Finance
+                </option>
+
+                <option value="Tamil Fiction">
+                    Tamil Fiction
+                </option>
+
+                <option value="Biography">
+                    Biography
+                </option>
+
+                <option value="Science Fiction">
+                    Science Fiction
+                </option>
+
+                <option value="Poetry">
+                    Poetry
+                </option>
+
+            </select>
+
+            <select id="sortFilter">
+
+                <option value="default">
+                    Sort By
+                </option>
+
+                <option value="price-low">
+                    Price: Low to High
+                </option>
+
+                <option value="price-high">
+                    Price: High to Low
+                </option>
+
+                <option value="name">
+                    Name: A to Z
+                </option>
+
+            </select>
+
+        </section>
+
+        <div id="loading">
+
+            <div class="loader"></div>
+
+            <p>
+                Loading books...
+            </p>
+
+        </div>
+
+        <section
+            class="book-grid"
+            id="bookGrid">
+
+        </section>
+
+        <div id="noResults">
+
+            <h2>
+                No results found
+            </h2>
+
+            <p>
+                Try searching for another book
+                or category.
+            </p>
+
+        </div>
+
+
+    </main>
+
+    <footer>
+
+        <p>
+            © 2026 BookBloom. All rights reserved.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
